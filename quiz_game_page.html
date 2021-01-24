@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Number</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body style="color: tomato;">
+	<h4 id="player1_name"></h4> 
+	<h3 id="player1_score"></h3> 
+	<br> 
+	<h4 id="player2_name"></h4> 
+	<h3 id="player2_score"></h3>
+<div class="container">
+
+	<center>
+		 <h2 style="color: rgb(212, 16, 16);">Guess The Number!</h2>
+		  <h3 id="player_question"></h3> 
+          <h3 id="player_answer"></h3>
+          <br>
+          <h3> Number 1</h3>
+          <input type="text" id="number1">
+          <br>
+          <br>
+          <h3> Number 2</h3>
+          <input type="text" id="number2" >
+          <br>
+		   <div id="output"> 
+               <br>
+               <button style= "background-color: rgb(18, 221, 35);" onclick="send()"> Send</button>
+           </div> 
+		</center>
+</div>
+
+
+<script src="quiz_game.js"></script>
+</body>
+</html>
